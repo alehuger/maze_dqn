@@ -2,7 +2,7 @@
 
 Implementation of a various tools from **reinforcement learning ** to solve an infinite number of **maze** environments.
 
-![Image](https://github.com/alehuger/maze_dqn/figs/map.png)
+![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/map.png)
 
 ### Prerequisites
 
@@ -41,27 +41,26 @@ In order to assess each version of the algorithm, we developed a few visualisati
 
 ### Neural Net Predicted Action Heat Map 
 
-
-![Image](https://github.com/alehuger/maze_dqn/figs/dqn_visualization.png)
+![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/dqn_visualization.png)
 
 The figure shows an heatmap deep q learning prediction of **best action** for discretised states.  This shows that 3 hidden layers learning architecture enable the network more complex **action region separation.** 
 
 
 ###  Final Distance per episode
 
-![Image](https://github.com/alehuger/maze_dqn/figs/distance_per_episode.png)
+![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/distance_per_episode.png)
 
 The figure shows the **final distance** at the end of each episode. It enable to see how close to the goal phase 2 ends and helps make sure the agent discover ever farther states.
 
 
 ###  Initialisation Steps per episode
-![Image](https://github.com/alehuger/maze_dqn/figs/initialization_steps.png)
+![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/initialization_steps.png)
 
 The figure shows the number of Initialisation Steps per episode.
 It illustrates how much the agent trust himself.
 
 ###  Final Greedy Agent
-![Image](https://github.com/alehuger/maze_dqn/figs/final_step_map.png)
+![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/final_step_map.png)
 
 How the agent performed when only evaluated on **greedy policy**
 
