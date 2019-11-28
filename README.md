@@ -2,9 +2,7 @@
 
 Implementation of a various tools from **reinforcement learning** to solve an infinite number of **maze** environments.
 
-![Image](figs/map.png)
-<img src="figs/map.png" width="48">
-<img src="https://github.com/alehuger/maze_dqn/blob/master/figs/final_step_map.png" width="48">
+<img src="figs/map.png" width="200" align="middle">
 
 
 ### Prerequisites
@@ -51,19 +49,18 @@ The figure shows an heatmap deep q learning prediction of **best action** for di
 
 ###  Final Distance per episode
 
-![Image](figs/distance_per_episode.png)
+<img src="figs/distance_per_episode.png" width="200" align="middle">
 
-The figure shows the **final distance** at the end of each episode. It enable to see how close to the goal phase 2 ends and helps make sure the agent discover ever farther states.
+The figure shows the **final distance** at the end of each episode. It enable to see how close to the **goal** phase 2 ends and helps make sure the agent discover ever **farther states**.
 
 
 ###  Initialisation Steps per episode
-![Image](figs/initialization_steps.png)
+<img src="figs/initialization_steps.png" width="200" align="middle">
 
-The figure shows the number of Initialisation Steps per episode.
-It illustrates how much the agent trust himself.
+The figure shows the number of **initialisation steps** per episode. It illustrates how much the agent trust himself.
 
 ###  Final Greedy Agent
-![Image](figs/final_step_map.png)
+<img src="figs/final_step_map.png" width="200" align="middle">
 
 How the agent performed when only evaluated on **greedy policy**
 
