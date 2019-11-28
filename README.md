@@ -2,7 +2,9 @@
 
 Implementation of a various tools from **reinforcement learning** to solve an infinite number of **maze** environments.
 
-![Image](figs/map.png =200x200)
+![Image](figs/map.png)
+<img src="figs/map.png" width="48">
+<img src="https://github.com/alehuger/maze_dqn/blob/master/figs/final_step_map.png" width="48">
 
 
 ### Prerequisites
