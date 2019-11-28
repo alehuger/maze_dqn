@@ -2,7 +2,7 @@
 
 Implementation of a various tools from **reinforcement learning** to solve an infinite number of **maze** environments.
 
-<img src="figs/map.png" width="200" align="middle">
+<img src="figs/map.png" style= "display: block; margin-left: auto; margin-right: auto; width: 40%;">
 
 
 ### Prerequisites
@@ -42,25 +42,25 @@ In order to assess each version of the algorithm, we developed a few visualisati
 
 ### Neural Net Predicted Action Heat Map 
 
-![Image](figs/dqn_visualization.png)
+<img src="figs/dqn_visualization.png" style= "display: block; margin-left: auto; margin-right: auto; width: 60%;">
 
 The figure shows an heatmap deep q learning prediction of **best action** for discretised states.  This shows that 3 hidden layers learning architecture enable the network more complex **action region separation.** 
 
 
 ###  Final Distance per episode
 
-<img src="figs/distance_per_episode.png" width="200" align="middle">
+<img src="figs/distance_per_episode.png" style= "display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 The figure shows the **final distance** at the end of each episode. It enable to see how close to the **goal** phase 2 ends and helps make sure the agent discover ever **farther states**.
 
 
 ###  Initialisation Steps per episode
-<img src="figs/initialization_steps.png" width="200" align="middle">
+<img src="figs/initialization_steps.png" style= "display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 The figure shows the number of **initialisation steps** per episode. It illustrates how much the agent trust himself.
 
 ###  Final Greedy Agent
-<img src="figs/final_step_map.png" width="200" align="middle">
+<img src="figs/final_step_map.png" style= "display: block; margin-left: auto; margin-right: auto; width: 40%;">
 
 How the agent performed when only evaluated on **greedy policy**
 
