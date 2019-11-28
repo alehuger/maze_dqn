@@ -1,8 +1,14 @@
 # Deep Q Learning for Maze Environments
 
-Implementation of a various tools from **reinforcement learning ** to solve an infinite number of **maze** environments.
+Implementation of a various tools from **reinforcement learning** to solve an infinite number of **maze** environments.
 
 ![Image](https://github.com/alehuger/maze_dqn/tree/master/figs/map.png)
+
+![Image](figs/map.png)
+![Image](master/figs/map.png)
+![alt text](https://github.com/alehuger/maze_dqn/tree/master/figs/map.png)
+![alt text](figs/map.png)
+![Screenshot](figs/map.png)
 
 ### Prerequisites
 
@@ -19,7 +25,7 @@ torch
 
 ### Remarks
 
-* The probability of success is **highly variant**: the algorithm should come up with a robust method.
+* The probability of success is **highly variant**: the algorithm should come up with a **robust** method.
 * The problem is **hard**, our aim is to find an algorithm that works robustly for simple cases *(i.e environments that do
 not require lots of exploration)*
 
@@ -27,9 +33,9 @@ not require lots of exploration)*
 
 Each episode has two phases:
 
-1. * **Initialisation** *: we follow the **greedy policy** for a given number of steps. 
+1. ***Initialisation***: we follow the **greedy policy** for a given number of steps. 
 
-2.  * ** Exploration  ** *: **ε-greedy policy** with decreasing ε from 1 to threshold.
+2.  ***Exploration***: **ε-greedy policy** with decreasing ε from 1 to threshold.
 The length of episodes and initialisation increase when the agent doesn’t visit a wall during the first phase.
 
 ### Intuition
@@ -67,5 +73,5 @@ How the agent performed when only evaluated on **greedy policy**
 
 ## Acknowledgments
 
-* I did not design the environments, the credit goes to Dr Edward Jones
+* I did not design the environments, the credit goes to **Dr Edward Jones**
 
